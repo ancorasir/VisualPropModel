@@ -55,12 +55,9 @@ The directory structure of this project looks like this:
 │
 ├── tests                  <- Tests of any kind
 │
-├── .env.example              <- Example of file for storing private environment variables
-├── .gitignore                <- List of files ignored by git
 ├── .project-root             <- File for inferring the position of project root directory
 ├── environment.yaml          <- File for installing conda environment
 ├── requirements.txt          <- File for installing python dependencies
-├── setup.py                  <- File for installing project as a package
 └── README.md
 ```
 
