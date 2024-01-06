@@ -61,3 +61,16 @@ The directory structure of this project looks like this:
 ```
 
 <br>
+
+## 🚀  Quickstart
+
+```bash
+# clone project
+git clone https://github.com/ancorasir/VisualPropModel.git
+
+cd VisualPropModel
+# install necessary dependence listed in requirements.txt
+
+python3 src/train.py
+
+```
