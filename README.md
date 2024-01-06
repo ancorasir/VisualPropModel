@@ -19,8 +19,8 @@ https://github.com/ancorasir/VisualPropModel/assets/42087775/adc74b6c-2354-4e52-
 The directory structure of this project looks like this:
 
 ```
-├── .github                   <- Github Actions workflows
-│
+├── checkpth                   <- Model checkpoint dir
+│   
 ├── configs                   <- Hydra configs
 │   ├── callbacks                <- Callbacks configs
 │   ├── data                     <- Data configs
