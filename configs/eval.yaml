@@ -5,7 +5,7 @@ defaults:
   - data: contactpoint # choose datamodule with `test_dataloader()` for evaluation
   - model: contactpoint
   - logger: tensorboard
-  - trainer: gpu
+  - trainer: default
   - paths: default
   - extras: default
   - hydra: default
