@@ -56,7 +56,6 @@ The directory structure of this project looks like this:
 ├── tests                  <- Tests of any kind
 │
 ├── .project-root             <- File for inferring the position of project root directory
-├── environment.yaml          <- File for installing conda environment
 ├── requirements.txt          <- File for installing python dependencies
 └── README.md
 ```
