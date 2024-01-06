@@ -73,15 +73,16 @@ cd VisualPropModel
 
 <br>
 
-##   Model Training
-
 <details>
-<summary><b>Use Default Config Parameters</b></summary>
+<summary><b>Model Training</b></summary>
 
 ```bash
 python src/train.py 
 ```
-##   Model Evaluation
+<br>
+
+<details>
+<summary><b>Model Evaluation</b></summary>
 
 ```bash
 python src/eval.py 
