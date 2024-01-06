@@ -1,0 +1,11 @@
+[2024-01-06 17:43:12,013][src.utils.utils][INFO] - [rank: 0] Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-01-06 17:43:12,016][src.utils.utils][INFO] - [rank: 0] Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-01-06 17:43:12,016][src.utils.rich_utils][WARNING] - [rank: 0] Field 'callbacks' not found in config. Skipping 'callbacks' config printing...
+[2024-01-06 17:43:12,039][__main__][INFO] - [rank: 0] Instantiating datamodule <src.data.contactpoint_datamodule.ContactPointDataModule>
+[2024-01-06 17:43:12,140][__main__][INFO] - [rank: 0] Instantiating model <src.models.contactpoint_module.ContactPointLitModule>
+[2024-01-06 17:43:12,164][__main__][INFO] - [rank: 0] Instantiating loggers...
+[2024-01-06 17:43:12,164][src.utils.instantiators][INFO] - [rank: 0] Instantiating logger <lightning.pytorch.loggers.tensorboard.TensorBoardLogger>
+[2024-01-06 17:43:12,177][__main__][INFO] - [rank: 0] Instantiating trainer <lightning.pytorch.trainer.Trainer>
+[2024-01-06 17:43:12,256][__main__][INFO] - [rank: 0] Logging hyperparameters!
+[2024-01-06 17:43:12,285][__main__][INFO] - [rank: 0] Starting testing!
+[2024-01-06 17:43:13,309][src.utils.utils][INFO] - [rank: 0] Output dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel/logs/eval/runs/2024-01-06_17-43-11

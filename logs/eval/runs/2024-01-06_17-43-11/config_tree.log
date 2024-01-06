@@ -1,0 +1,73 @@
+CONFIG
+├── data
+│   └── _target_: src.data.contactpoint_datamodule.ContactPointDataModule                                                                                                
+│       dataset:                                                                                                                                                         
+│         _target_: src.data.components.contact_point_dataset.ContactPoint_Dataset                                                                                       
+│         data_str: bc_3_trainingData.npy                                                                                                                                
+│       batch_size: 128                                                                                                                                                  
+│       train_val_test_split_ratio:                                                                                                                                      
+│       - 0.5                                                                                                                                                            
+│       - 0.2                                                                                                                                                            
+│       num_workers: 4                                                                                                                                                   
+│       pin_memory: false                                                                                                                                                
+│                                                                                                                                                                        
+├── model
+│   └── _target_: src.models.contactpoint_module.ContactPointLitModule                                                                                                   
+│       optimizer:                                                                                                                                                       
+│         _target_: torch.optim.Adam                                                                                                                                     
+│         _partial_: true                                                                                                                                                
+│         lr: 0.0001                                                                                                                                                     
+│         weight_decay: 0.0                                                                                                                                              
+│       scheduler:                                                                                                                                                       
+│         _target_: torch.optim.lr_scheduler.ReduceLROnPlateau                                                                                                           
+│         _partial_: true                                                                                                                                                
+│         mode: min                                                                                                                                                      
+│         factor: 0.1                                                                                                                                                    
+│         patience: 10                                                                                                                                                   
+│       net:                                                                                                                                                             
+│         _target_: src.models.components.simple_dense_net.SimpleDenseNet                                                                                                
+│         input_size: 18                                                                                                                                                 
+│         lin1_size: 256                                                                                                                                                 
+│         lin2_size: 64                                                                                                                                                  
+│         lin3_size: 0                                                                                                                                                   
+│         output_size: 3                                                                                                                                                 
+│       compile: false                                                                                                                                                   
+│                                                                                                                                                                        
+├── logger
+│   └── tensorboard:                                                                                                                                                     
+│         _target_: lightning.pytorch.loggers.tensorboard.TensorBoardLogger                                                                                              
+│         save_dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel/logs/eval/runs/2024-01-06_17-43-11/tensorboard/                                       
+│         name: null                                                                                                                                                     
+│         log_graph: false                                                                                                                                               
+│         default_hp_metric: true                                                                                                                                        
+│         prefix: ''                                                                                                                                                     
+│                                                                                                                                                                        
+├── trainer
+│   └── _target_: lightning.pytorch.trainer.Trainer                                                                                                                      
+│       default_root_dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel/logs/eval/runs/2024-01-06_17-43-11                                              
+│       min_epochs: 1                                                                                                                                                    
+│       max_epochs: 100                                                                                                                                                  
+│       accelerator: gpu                                                                                                                                                 
+│       devices: 1                                                                                                                                                       
+│       check_val_every_n_epoch: 1                                                                                                                                       
+│       deterministic: false                                                                                                                                             
+│                                                                                                                                                                        
+├── paths
+│   └── root_dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel                                                                                         
+│       data_dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel/data/                                                                                   
+│       log_dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel/logs/                                                                                    
+│       output_dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel/logs/eval/runs/2024-01-06_17-43-11                                                    
+│       work_dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel                                                                                         
+│       check_dir: /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel/checkpth/                                                                              
+│                                                                                                                                                                        
+├── extras
+│   └── ignore_warnings: false                                                                                                                                           
+│       enforce_tags: true                                                                                                                                               
+│       print_config: true                                                                                                                                               
+│                                                                                                                                                                        
+├── task_name
+│   └── eval                                                                                                                                                             
+├── tags
+│   └── ['dev']                                                                                                                                                          
+└── ckpt_path
+    └── /home/ghost/Documents/WorkSpace/&HXD/Trainning/VisualPropModel/checkpth//last.ckpt                                                                               
