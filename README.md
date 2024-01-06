@@ -85,9 +85,10 @@ python src/train.py trainer=gpu
 ```
 </details>
 
-
+<details>
 <summary><b>Model Evaluation</b></summary>
 
 ```bash
 python src/eval.py 
 ```
+</details>
