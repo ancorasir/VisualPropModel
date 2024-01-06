@@ -77,11 +77,15 @@ cd VisualPropModel
 <summary><b>Model Training</b></summary>
 
 ```bash
-python src/train.py 
-```
-<br>
+# train on CPU(default)
+python src/train.py
 
-<details>
+# train on 1 GPU
+python src/train.py trainer=gpu
+```
+</details>
+
+
 <summary><b>Model Evaluation</b></summary>
 
 ```bash
