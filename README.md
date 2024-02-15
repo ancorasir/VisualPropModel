@@ -84,7 +84,7 @@ The directory structure of this project looks like this:
 
 <br>
 
-##   Quickstart
+## Quickstart
 
 ```bash
 # clone project
