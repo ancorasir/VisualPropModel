@@ -1,10 +1,10 @@
-# Reconstructing Touch for Metaverse by Visual Proprioception
+# Reconstructing Soft Robotic Touch via In-Finger Vision
 Ning Guo<sup>#</sup>, Xudong Han<sup>#</sup>, Shuqiao Zhong, Zhiyuan Zhou, Jian Lin, Fang Wan**, Chaoyang Song*
 
 <br>
 
 ## Graphic Abstract
-![gabs](https://github.com/ancorasir/VisualPropModel/assets/42087775/38749dc4-7b34-46d2-9c42-14f87187a343)
+![Fig0-GraphicalAbstract](https://github.com/ancorasir/VisualPropModel/assets/42087775/de914a2b-e024-4824-8990-49e253fe2e3c)
 
 <br>
 
