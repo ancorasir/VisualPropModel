@@ -10,7 +10,22 @@ Ning Guo<sup>#</sup>, Xudong Han<sup>#</sup>, Shuqiao Zhong, Zhiyuan Zhou, Jian 
 
 ## Supplementary Videos
 
-https://github.com/ancorasir/VisualPropModel/assets/42087775/adc74b6c-2354-4e52-b0a5-e29e3ff0f8ac
+### Movie S1: Adaptive Capability of Soft Finger.
+https://github.com/ancorasir/VisualPropModel/assets/42087775/05b125b4-1b54-4d8e-bcd3-d29f7ea373c0
+
+### Movie S2: Interactive Shape Estimation.
+https://github.com/ancorasir/VisualPropModel/assets/42087775/0a33e725-d765-4cde-85b9-1fc31300aa3b
+
+### Movie S3: Dynamic Touch Path Estimation.
+https://github.com/ancorasir/VisualPropModel/assets/42087775/91841472-132b-4e53-aab9-03cb88f4a2ec
+
+
+### Movie S4: Human-Robot Collaboration with Soft Intelligence.
+https://github.com/ancorasir/VisualPropModel/assets/42087775/2ab043ad-e5f0-45eb-8172-cafa87f1fed9
+
+
+### Movie S5: Adaptive Grasping Enhanced by Touch Estimation.
+https://github.com/ancorasir/VisualPropModel/assets/42087775/3fda6215-8862-4b5e-b8d7-574c12e1e14f
 
 <br>
 
@@ -70,6 +85,12 @@ git clone https://github.com/ancorasir/VisualPropModel.git
 cd VisualPropModel
 
 ```
+
+<br>
+
+<summary><b>DataSet</b></summary>
+1、The recorded data for model training is located in the 'data/raw' folder
+2、The 'notebooks/RawDataProcessing.ipynb' file contains the necessary steps for processing raw data
 
 <br>
 
