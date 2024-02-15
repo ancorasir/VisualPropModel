@@ -89,7 +89,8 @@ cd VisualPropModel
 <br>
 
 <summary><b>DataSet</b></summary>
-1、The recorded data for model training is located in the 'data/raw' folder \
+1、The recorded data for model training is located in the 'data/raw' folder 
+<br />
 2、The 'notebooks/RawDataProcessing.ipynb' file contains the necessary steps for processing raw data
 
 <br>
