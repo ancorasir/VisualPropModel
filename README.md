@@ -77,6 +77,13 @@ The directory structure of this project looks like this:
 
 <br>
 
+## Datasets
+1.The recorded data for model training is located in the 'data/raw' folder .
+<br />
+2.The 'notebooks/RawDataProcessing.ipynb' file contains the necessary steps for processing raw data.
+
+<br>
+
 ##   Quickstart
 
 ```bash
@@ -88,12 +95,6 @@ cd VisualPropModel
 
 <br>
 
-<summary><b>DataSet</b></summary>
-1、The recorded data for model training is located in the 'data/raw' folder 
-<br />
-2、The 'notebooks/RawDataProcessing.ipynb' file contains the necessary steps for processing raw data
-
-<br>
 
 <summary><b>Model Training</b></summary>
 
