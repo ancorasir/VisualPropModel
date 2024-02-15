@@ -19,10 +19,8 @@ https://github.com/ancorasir/VisualPropModel/assets/42087775/0a33e725-d765-4cde-
 ### Movie S3: Dynamic Touch Path Estimation.
 https://github.com/ancorasir/VisualPropModel/assets/42087775/91841472-132b-4e53-aab9-03cb88f4a2ec
 
-
 ### Movie S4: Human-Robot Collaboration with Soft Intelligence.
-https://github.com/ancorasir/VisualPropModel/assets/42087775/2ab043ad-e5f0-45eb-8172-cafa87f1fed9
-
+https://github.com/ancorasir/VisualPropModel/assets/42087775/d239c723-5470-4942-b1ad-b739946ea519
 
 ### Movie S5: Adaptive Grasping Enhanced by Touch Estimation.
 https://github.com/ancorasir/VisualPropModel/assets/42087775/3fda6215-8862-4b5e-b8d7-574c12e1e14f
